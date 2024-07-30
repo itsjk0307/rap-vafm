@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "vafm-reactnative-webview",
+    "slug": "vafm-reactnative-webview",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rainbowtech.vafmwebview",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12b19d69-2cd4-4e32-a7e7-397303795563"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/12b19d69-2cd4-4e32-a7e7-397303795563"
+    }
+  }
+}
